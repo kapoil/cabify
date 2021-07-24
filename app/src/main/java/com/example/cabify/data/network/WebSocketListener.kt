@@ -1,4 +1,4 @@
-package com.example.cabify
+package com.example.cabify.data.network
 
 
 interface WebSocketListener {

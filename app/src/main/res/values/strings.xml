@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cabify</string>
+    <string name="google_maps_key">AIzaSyBajeJOq7xLFUqjQMH358uSHfmhMzjWby8</string>
 </resources>

@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
 }
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))
 
 android {
     compileSdkVersion 30
@@ -42,6 +44,7 @@ dependencies {
     // Places Library (required for search places)
     implementation 'com.google.android.libraries.places:places:2.2.0'
     api 'com.google.maps:google-maps-services:0.2.9'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
