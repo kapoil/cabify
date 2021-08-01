@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Cabify</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="required_for_this_app">Required for this app</string>
+    <string name="enable_now">Enable Now</string>
+    <string name="location_permission_not_granted">Location Permission not granted</string>
     <string name="google_maps_key">AIzaSyBajeJOq7xLFUqjQMH358uSHfmhMzjWby8</string>
 </resources>
